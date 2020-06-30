@@ -56,7 +56,7 @@ async def fun_(message: Message):
         await message.edit(fun, parse_mode="html")
 
 
-@userge.on_cmd("Oof$", about={'header': "Ooooof"}, trigger='')
+@userge.on_cmd("Oof$", about={'header': "Ooooooooooooooooof"}, trigger='')
 async def Oof_(message: Message):
     """Oof"""
     Oof = "Oo "
